@@ -1255,3 +1255,22 @@
 	body.is-touch .poptrox-popup .closer {
 		opacity: 1.0 !important;
 	}
+
+/* Custom SideBar Links */
+li {
+	-webkit-transition: all 0.5s ease-in-out;
+            -moz-transition: all 0.5s ease-in-out;
+            -o-transition: all 0.5s ease-in-out;
+            -ms-transition: all 0.5s ease-in-out;
+}
+
+	li:hover{
+		-webkit-transform: translate(0.5em,0);
+            -moz-transform: translate(0.5em,0);
+            -o-transform: translate(0.5em,0);
+            -ms-transform: translate(0.5em,0);
+	}
+
+
+
+
