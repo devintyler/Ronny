@@ -1271,6 +1271,29 @@ li {
             -ms-transform: translate(0.5em,0);
 	}
 
+/* Large Screens */
+@media only screen
+and (max-width: 1800px)
+and (min-width: 980px){
+	
+}
+
+/* Tablets and Mobile */
+@media only screen
+and (max-width: 980px) {
+	.nav {
+		text-align: center;
+		margin: 0 auto;
+		position: absolute;
+		left: 25%;
+	}
+	ul li {
+		display: inline;
+		padding: 1em;
+		float: left;
+	}
+}
+
 
 
 
