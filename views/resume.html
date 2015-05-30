@@ -5,6 +5,40 @@
 	</header>
 	<p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
 	<ul class="actions">
-		<li><a href="#" class="button">Contact</a></li>
+		<li><a class="button" onclick="toggle_visibility('contactForm');">Contact</a></li>
 	</ul>
 </section>
+
+<!-- Contact -->
+<div style="display: none" id="contactForm">
+	<section id="three">
+		<div class="row">
+			<div class="8u 12u$(2)">
+				<form method="post" action="#">
+					<div class="row uniform 50%">
+						<div class="6u 12u$(3)"><input type="text" name="name" id="name" placeholder="Name" /></div>
+						<div class="6u$ 12u$(3)"><input type="email" name="email" id="email" placeholder="Email" /></div>
+						<div class="12u$"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+					</div>
+				</form>
+				<ul class="actions">
+					<li><input type="submit" value="Send Message" /></li>
+				</ul>
+			</div>
+			<div class="4u$ 12u$(2)">
+				<ul class="labeled-icons">
+					<li>
+						<h4>Ronny Mraz</h4>
+					<li>
+						<h3 class="icon fa-mobile"><span class="label">Phone</span></h3>
+						1 (914) 479-2437
+					</li>
+					<li>
+						<h3 class="icon fa-envelope-o"><span class="label">Email</span></h3>
+						<a href="mailto:ronny.mraz@gmail.com">ronny.mraz@gmail.com</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+</div>

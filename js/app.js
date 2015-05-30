@@ -15,13 +15,13 @@ angular.module('Ronny', ['ngRoute', 'ngMessages'])
 		    templateUrl: 'views/music.html',
 		    controller: 'MusicCtrl'
 		  })
-		  .when('/videos', {
-		    templateUrl: 'views/videos.html',
+		  .when('/films', {
+		    templateUrl: 'views/films.html',
 		    controller: 'VidCtrl'
 		  })
-		  .when('/projects', {
-		    templateUrl: 'views/projects.html',
-		    controller: 'ProjCtrl'
+		  .when('/games', {
+		    templateUrl: 'views/games.html',
+		    controller: 'GameCtrl'
 		  })
 		  .when('/extra', {
 		    templateUrl: 'views/extra.html',

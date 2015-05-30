@@ -955,7 +955,7 @@
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 30%;
+		width: 25%;
 	}
 
 		#header strong, #header b {
@@ -986,7 +986,7 @@
 		padding: 0 4em 2em 0;
 		position: fixed;
 		text-align: right;
-		width: 30%;
+		width: 25%;
 	}
 
 		#footer .icons {
@@ -1313,6 +1313,30 @@ and (max-width: 980px) {
 		display: none;
 	}
 }
+
+
+
+
+
+/*Custom CSS*/
+
+.projEntry {
+	width: 100%;
+}
+
+	.projEntry .projBio {
+		width: 55%;
+		float: left;
+	}
+
+	.projEntry .projImg {
+		width: 40%;
+		float: right;
+	}
+
+
+
+
 
 
 
