@@ -1335,6 +1335,33 @@ and (max-width: 980px) {
 	}
 
 
+.resTitle {
+	float: left;
+	width: 100%;
+}
+
+.resL {
+	float: left;
+	width: 50%;
+}
+
+.resR {
+	float: right;
+	width: 50%;
+	text-align: right;
+}
+
+.resList {
+	list-style-type:square;
+	float: left;
+}
+
+.resInfo {
+	float: left;
+	width: 100%;
+}
+
+
 
 
 
