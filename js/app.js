@@ -23,9 +23,9 @@ angular.module('Ronny', ['ngRoute', 'ngMessages'])
 		    templateUrl: 'views/games.html',
 		    controller: 'GameCtrl'
 		  })
-		  .when('/extra', {
-		    templateUrl: 'views/extra.html',
-		    controller: 'ExtraCtrl'
+		  .when('/other', {
+		    templateUrl: 'views/other.html',
+		    controller: 'OtherCtrl'
 		  })
 		  .otherwise('/');
 
