@@ -1334,6 +1334,10 @@ and (max-width: 980px) {
 		float: right;
 	}
 
+		.projEntry .projImg img {
+			max-width: 320px;
+		}
+
 
 .resTitle {
 	float: left;
