@@ -28,7 +28,7 @@ angular.module('Ronny', ['ngRoute', 'ngMessages'])
 		    controller: 'OtherCtrl'
 		  })
 		  .when('/thanks', {
-		    templateUrl: 'thanks.html'
+		    templateUrl: 'views/thanks.html'
 		  })
 		  .otherwise('/');
 

@@ -31,8 +31,7 @@ $success = mail($EmailTo, $Subject, $Body, "From: <$EmailFrom>");
 
 // redirect to success page 
 if ($success){
-  header("Location: http://ronnymraz.com/#/thanks"); /* Redirect browser */
-	exit();
+  print "<meta http-equiv=\"refresh\" content=\"0;URL=#/thanks\">";
 }
 else{
   print "<meta http-equiv=\"refresh\" content=\"0;URL=error.htm\">";
